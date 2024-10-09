@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    width: 80%;
+    background-color: #c1c1c1;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.block{
+    background-color: #d71f1f;
+    color: #fff;
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.idk {
+    height: 300px;
+}

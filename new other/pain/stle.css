@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px auto;
+    width: 80%;
+    min-height: 400px;
+    background-color: #515151;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.block {
+    background-color: #000;
+    color: #fff;
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.block:nth-child(3) {
+    order: 3;
+}
